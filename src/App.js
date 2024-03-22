@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import logo from './image/yoshi.png';
 import './App.css';
+import './Title.css';
+
+import Title from './Title';
 
 function App() {
   return (
     <div className="App">
+      <Title />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" width={300} height={60} />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -23,3 +28,5 @@ function App() {
 }
 
 export default App;
+
+// Cant access repo talk to Andrew about it and also talk about gif search assigmnet
