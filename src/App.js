@@ -1,16 +1,24 @@
-import React from 'react';
-import logo from './image/yoshi.png';
-import './App.css';
-import './Title.css';
+import React from "react";
+import logo from "./image/yoshi.png";
+import "./App.css";
+import "./Title.css";
+import POPOSList from "./POPOSList";
 
-import Title from './Title';
+import Title from "./Title";
 
 function App() {
   return (
     <div className="App">
       <Title />
+      <POPOSList />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" width={300} height={60} />
+        <img
+          src={logo}
+          className="App-logo"
+          alt="logo"
+          width={300}
+          height={60}
+        />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
