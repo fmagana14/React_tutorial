@@ -5,6 +5,7 @@ import "./Title.css";
 import POPOSList from "./POPOSList";
 
 import Title from "./Title";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Footer />
     </div>
   );
 }
