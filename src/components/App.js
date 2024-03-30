@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import "./Title.css";
-import POPOSList from "./POPOSList";
+import "./title/Title";
+import POPOSList from "./POPOSList/POPOSList";
 // import { Outlet } from "react-router-dom";
-import Title from "./Title";
-import Footer from "./Footer";
+import Title from "./title/Title";
+import Footer from "../Footer";
+import About from "./about/About";
 // import POPOSDetails from './POPOSDetails'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Title />
       <POPOSList />
       <Footer />
-      {/* <POPOSDetails/> */}
+      <About/>
     </div>
   );
 }
