@@ -19,7 +19,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
-        <Route path="about" element={<About />} />
+        <Route path="/about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>
